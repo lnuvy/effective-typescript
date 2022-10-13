@@ -12,7 +12,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false, // node 콘솔 확인용
+    // "isolatedModules": true, // default
     "jsx": "preserve",
     "incremental": true
   },
