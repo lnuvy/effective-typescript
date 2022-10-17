@@ -102,3 +102,8 @@ sortBy(pts, "x");
 sortBy(pts, "y");
 sortBy(pts, Math.random() < 0.5 ? "x" : "y");
 sortBy(pts, "z"); //
+
+type T1 = "string literal";
+type T2 = 123;
+const T1 = "string literal";
+const T2 = 123;
